@@ -32,7 +32,7 @@ jobs:
         uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          path-to-lcov: Test/TestResults/coverage.info
+          path-to-lcov: Test/TestResults/**/coverage.cobertura.xml
 
       - name: Build with dotnet
         run: dotnet build --configuration Release
