@@ -1,7 +1,7 @@
-using WeatherApi;
+using WeatherApi.Utils;
 using Xunit;
 
-namespace Tests
+namespace Tests.Utils
 {
     public class CalculatorTest
     {

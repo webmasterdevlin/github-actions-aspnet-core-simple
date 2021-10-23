@@ -1,4 +1,4 @@
-namespace WeatherApi
+namespace WeatherApi.Utils
 {
     public class Calculator
     {
