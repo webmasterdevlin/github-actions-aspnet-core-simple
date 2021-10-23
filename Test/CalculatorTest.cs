@@ -1,7 +1,7 @@
 using WeatherApi;
 using Xunit;
 
-namespace Test
+namespace Tests
 {
     public class CalculatorTest
     {
