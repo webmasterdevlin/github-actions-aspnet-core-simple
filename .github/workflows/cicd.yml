@@ -20,7 +20,7 @@ jobs:
           include-prerelease: true
 
       - name: Test
-        run: dotnet test /p:CollectCoverage=true /p:CoverletOutput=TestResults/ /p:CoverletOutputFormat=lcov
+        run: dotnet test --collect:"XPlat Code Coverage"
 
       - name: Create Issue
         if: ${{ failure() }}
