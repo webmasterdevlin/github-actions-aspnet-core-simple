@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.810.11
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApi", "WeatherApi\WeatherApi.csproj", "{3B981C8B-B24F-4663-B0B1-42CD63B14F12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Test\Tests.csproj", "{889F3292-CC9A-4935-88CE-E5B022E91DC8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{01BE2E1C-5407-4AFB-B4D7-6FC82DA57EE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{3B981C8B-B24F-4663-B0B1-42CD63B14F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B981C8B-B24F-4663-B0B1-42CD63B14F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B981C8B-B24F-4663-B0B1-42CD63B14F12}.Release|Any CPU.Build.0 = Release|Any CPU
-		{889F3292-CC9A-4935-88CE-E5B022E91DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{889F3292-CC9A-4935-88CE-E5B022E91DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{889F3292-CC9A-4935-88CE-E5B022E91DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{889F3292-CC9A-4935-88CE-E5B022E91DC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01BE2E1C-5407-4AFB-B4D7-6FC82DA57EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01BE2E1C-5407-4AFB-B4D7-6FC82DA57EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01BE2E1C-5407-4AFB-B4D7-6FC82DA57EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01BE2E1C-5407-4AFB-B4D7-6FC82DA57EE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
