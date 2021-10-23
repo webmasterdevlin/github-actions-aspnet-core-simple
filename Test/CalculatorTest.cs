@@ -1,7 +1,4 @@
-using System;
-using System.Threading.Tasks;
 using WeatherApi;
-using WeatherApi.Controllers;
 using Xunit;
 
 namespace Test
@@ -16,7 +13,7 @@ namespace Test
             // arrange
             const int numberOne = 1;
             const int numberTwo = 2;
-            const int expected = 4;
+            const int expected = 3;
 
             // act
             var result = _underTest.Add(numberOne, numberTwo);
