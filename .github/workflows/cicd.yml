@@ -35,7 +35,12 @@ jobs:
           path-to-lcov: Tests/TestResults/coverage.info
 
   build:
-    runs-on: windows-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+
+    runs-on: ${{ matrix.os }}
+
     needs: test
     steps:
       - uses: actions/checkout@v2
