@@ -30,7 +30,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_d4ea9729c98a43aea20c9d635c544c2f }}/WeatherApi:${{ github.sha }}
+        tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_d4ea9729c98a43aea20c9d635c544c2f }}/weatherapi:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
@@ -48,4 +48,4 @@ jobs:
         app-name: 'githubactions2022'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_f67b4d8494d747309442ba41e697f546 }}
-        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_d4ea9729c98a43aea20c9d635c544c2f }}/WeatherApi:${{ github.sha }}'
+        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_d4ea9729c98a43aea20c9d635c544c2f }}/weatherapi:${{ github.sha }}'
