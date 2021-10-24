@@ -1,7 +1,7 @@
 ---
-title: Test failed
-assignees: 
-labels: bug, enhancement
+title:
+assignees:
+labels:
 ---
 
 <!--
