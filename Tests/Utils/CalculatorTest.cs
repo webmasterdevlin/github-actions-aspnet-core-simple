@@ -13,7 +13,7 @@ namespace Tests.Utils
             // arrange
             const int numberOne = 1;
             const int numberTwo = 2;
-            const int expected = 3;
+            const int expected = 4;
 
             // act
             var result = _underTest.Add(numberOne, numberTwo);
